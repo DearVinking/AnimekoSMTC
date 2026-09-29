@@ -1,0 +1,20 @@
+Ani application icon
+
+Source: https://github.com/open-ani/animeko
+Original file: app/desktop/icons/a_1024x1024_rounded.ico
+Copyright: Animeko contributors
+License: GNU Affero General Public License, version 3
+License text: licenses/Animeko-AGPL-3.0.txt
+
+The icon is included unchanged in crates/companion/assets/ani.ico and
+embedded in AnimekoSMTC.exe. The Rust source code is licensed under MIT.
+
+macOS application icon
+Original file: app/desktop/icons/a_512x512.icns
+Source revision: cd0ad5ca8dc501fb06426d83870f49e7e3b0adef
+Source URL: https://github.com/open-ani/animeko/blob/cd0ad5ca8dc501fb06426d83870f49e7e3b0adef/app/desktop/icons/a_512x512.icns
+Copyright: Animeko contributors
+License: GNU Affero General Public License, version 3
+License text: licenses/Animeko-AGPL-3.0.txt
+Included unchanged in crates/companion/assets/ani.icns and in the macOS app.
+SHA-256: 987e11c9eb232954b07594d3d7f9c71a4a2eb9e7c174691b4864efd13be9be73

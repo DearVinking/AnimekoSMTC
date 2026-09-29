@@ -1,0 +1,9 @@
+/target/
+/dist/
+*.log
+*.dmp
+.idea/
+
+.docs/
+docs/
+.worktrees/
