@@ -1,0 +1,19 @@
+[workspace]
+members = ["crates/protocol", "crates/probe", "crates/companion"]
+resolver = "2"
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.85"
+
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+animeko-protocol = { path = "crates/protocol" }
+
+[profile.release]
+lto = "thin"
+strip = "debuginfo"
